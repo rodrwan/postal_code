@@ -13,7 +13,7 @@ import (
 
 const (
 	// BaseURL ...
-	BaseURL = "http://www.correos.cl/SitePages/codigo_postal/codigo_postal.aspx?calle=%s&numero=%s&comuna=%s"
+	BaseURL = "https://codigopostal.correos.cl/?calle=%s&numero=%s&comuna=%s"
 )
 
 // Crawler visit BaseURL and make a request to crawl DOM looking for specific data.
